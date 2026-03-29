@@ -1,0 +1,59 @@
+body{
+  font-family: Arial;
+  background:#f5f7fb;
+}
+
+.container{
+  width:500px;
+  margin:40px auto;
+}
+
+.input-box{
+  display:flex;
+  gap:10px;
+}
+
+input, select{
+  padding:10px;
+}
+
+button{
+  padding:10px;
+  border:none;
+  background:#4c6ef5;
+  color:white;
+}
+
+.filter{
+  margin-top:15px;
+}
+
+.filter button{
+  margin-right:5px;
+}
+
+.task{
+  display:flex;
+  justify-content:space-between;
+  background:white;
+  padding:12px;
+  margin-top:10px;
+  border-radius:6px;
+}
+
+.badge{
+  margin-right:10px;
+  font-size:12px;
+}
+
+.High{
+  border-left:5px solid red;
+}
+
+.Medium{
+  border-left:5px solid orange;
+}
+
+.Low{
+  border-left:5px solid green;
+}
